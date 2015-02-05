@@ -1,0 +1,10 @@
+Cache optimized matrix multiply
+To compile and run:
+./compile
+
+reports the results in a file called report.
+The program runs a check using the naive matrix multiplication.
+The matrix should be able to handle valid matrices of any dimension.
+The implementation uses an interleaved blocking technique where the windows
+and computations are interleaved instead of blocking for each dimension and then
+computing.

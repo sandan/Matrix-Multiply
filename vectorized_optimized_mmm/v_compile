@@ -1,0 +1,4 @@
+icc -o vectorized_mmm -std=c99 -O3 -DPROBLEM_SIZE=3000 -DFLUSH_SIZE=1024*1024*10 -xSSE4.2 v_mmm.c
+
+./vectorized_mmm >>report
+tail report

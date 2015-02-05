@@ -1,0 +1,4 @@
+gcc -std=c99 -ffast-math -fno-tree-vectorize -O3 -Wall -Werror -DPROBLEM_SIZE=3000 -DFLUSH_SIZE=1024*1024*10 mmm.c -o mmm
+
+./mmm >>report
+tail report

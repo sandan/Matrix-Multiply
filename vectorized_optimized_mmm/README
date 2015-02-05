@@ -1,0 +1,9 @@
+Cache optimized and vectorized (using SSE4.2 extensions) matrix multiply
+
+To compile and run:
+./v_compile
+
+The results are output in a file report for that run.
+The matrix implementation should handle valid matrices of 
+any dimension. This is a simple extension of the cache optimized
+matrix multiply.
